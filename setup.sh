@@ -1,7 +1,7 @@
 # software
 
 sudo apt update
-sudo apt install -y build-essential git python-pip python-setuptools python-virtualenv
+sudo apt install -y --no-upgrade build-essential git python-pip python-setuptools python-virtualenv
 
 # git
 
