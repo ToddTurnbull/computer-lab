@@ -1,15 +1,15 @@
-# software
+# PPAs
+
+# Numix Circle Icon Theme
+sudo add-apt-repository ppa:numix/ppa
+
+# Plank
+sudo add-apt-repository ppa:docky-core/stable
 
 sudo apt update
 sudo apt upgrade -y
-sudo apt install -y --no-upgrade build-essential git python-pip python-setuptools python-virtualenv
+sudo apt install -y --no-upgrade numix-icon-theme numix-icon-theme-circle plank
 
-# git
+# Gnome Software doesn't work on Xubuntu 16.04
+sudo apt install -y --no-upgrade gdebi synaptic
 
-git config --global user.name "Todd Turnbull"
-git config --global user.email "shingaling@gmail.com"
-
-# directories
-
-mkdir ~/venv
-mkdir ~/git
